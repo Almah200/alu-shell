@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this scripts will repeat this line 10 times
 #!/bin/bash
-for i in {1..10}
-do
- echo "Best School$i"
-done
+for (var i=1; i<=10; i++) {
+	var BestSchhol=Best School;
+	console.log(BestSchool);
+}
