@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#This script will display hi after the 9th line
+i=0
+while [ $i -lt 10 ]
+do
+   echo Best School
+ if [[ "$i" == '8' ]];then
+   echo Hi
+fi
+((i++))
+done
