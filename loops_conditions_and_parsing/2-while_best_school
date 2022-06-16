@@ -1,0 +1,8 @@
+#!/usr/bin/ env bash
+# This script will display Best School 10 times
+bestschool=Best School
+while [ $bestschool -qe 10  ]
+do
+	echo "$bestschool"
+	bestschool=$ (( bestschool+1 ))
+done
