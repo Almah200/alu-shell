@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 # This script will display Best School 10 times
-int main()
-{
-	int i=1;
-	while(i<=10)
-	{
-	     printf("%d.Best School\n",i);
-	     i++;
-	}
-	return 0;
-}
+bestschool= Best School
+while [ $beschool -le 10 ]
+do
+	echo "Best School"
+done
