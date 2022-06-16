@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 #Thi script will display bad luck in 4 and is your chance in 8
-i=0
-while [ $i -lt 10 ]
+i=1
+while [ $i -le 10 ]
 do
-echo Best School
-if [[ $i == '3' ]]; then
-echo bad luck
-elif [[ $i == '7' ]]; then
-echo good luck
+if [[ $i == '4' ]];then
+  echo bad luck
+elif [[ $i == '8' ]];then
+  echo good luck
 else 
-echo Best School
+  echo Best School
 fi
 ((i++))
 done
