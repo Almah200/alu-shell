@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script will dispay Best School 10 times using until loop
+i=0
+until [$1 -gt 10]
+do
+   echo Best School
+   ((i++))
+done
