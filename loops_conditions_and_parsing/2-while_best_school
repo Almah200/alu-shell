@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # This script will display Best School 10 times
 bestschool= Best School
-while [ $bestschool -le 10 ]
+while [ $bestschool 1..10 ]
 do
 	echo "Best School"
-	(( bestschool++ ))
 done
