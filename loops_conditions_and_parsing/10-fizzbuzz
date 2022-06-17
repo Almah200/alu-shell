@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This script will print on numbers that multiple of 3 and 5
+for (( i=1; i<=100; i++ ))
+do
+	case $i in
+		i%15 ==0)
+			echo "FizzBuzz"
+			echo $i;;
+		i%3 ==0)
+			echo "Fizz"
+			echo $i;;
+		i%5 ==0)
+			echo "Buzz"
+			echo $i;;
+		*)
+			echo $i;;
+	esac
+done
+
