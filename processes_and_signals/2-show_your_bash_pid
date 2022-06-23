@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script will display the PIDs of lines with bash word
+# shellcheck disable=SC2009
+ps -faux | pidof bash
