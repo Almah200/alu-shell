@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#This script will display to infinity and beyond indefinately with a sleeep in between each iteration
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+    trap 'echo "I am invincible!!!"' SIGTERM
+done
